@@ -26,6 +26,10 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  <!-- JS Files -->
+  <script src="assets/js/fetch_data.js"></script>
+  <script src="assets/js/article_generator.js"></script>
+
   <!-- =======================================================
   * Template Name: Folio - v4.7.0
   * Template URL: https://bootstrapmade.com/folio-bootstrap-portfolio-template/
@@ -48,26 +52,15 @@
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link  scrollto" href="#portfolio">My Jounrney</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">My Experience</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">My Involvements</a></li>
+          <li class="dropdown"><a href="#"><span>Book Me</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Speaker Opportunities</a></li>
+              <li><a href="#">Life Coaching</a></li>
             </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">Contacts</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,15 +73,17 @@
 
     <div class="container">
       <div class="hero-content">
-        <h1>I'm <span class="typed" data-typed-items="Alex Smith, Designer, Developer, Freelancer, Photographer"></span></h1>
-        <p>Designer, Developer, Freelancer, Photographer</p>
+        <h1>I'm <span class="typed" data-typed-items="Adam Alpert, Entrepreneur, Life Coach, Guest Speaker"></span></h1>
+        <p>Entrepreneur, Life Coach, Guest Speaker</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="#"><i class="bi bi-facebook"></i></a></li><br>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li><br>
+          <li><a href="#"><i class="bi bi-instagram"></i></a></li><br>
+          <li><a href="#"><i class="bi bi-linkedin"></i></a></li><br>
+          <li><a href="#"><i class="bi bi-tiktok"></i></a></li><br>
         </ul>
+
       </div>
     </div>
   </div><!-- End Hero -->
@@ -279,65 +274,11 @@
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>journal</h2>
+          <h2>Read More About Me</h2>
         </div>
       </div>
 
-      <div class="container">
-        <div class="journal-block">
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
-
-                <a href="blog-single.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive" alt="img"></a>
-
-                <div class="journal-txt">
-
-                  <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
-
-                </div>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
-
-                <a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive" alt="img"></a>
-
-                <div class="journal-txt">
-
-                  <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
-
-                </div>
-
-              </div>
-            </div>
-
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
-
-                <a href="blog-single.html"><img src="assets/img/blog-post-3.jpg" class="img-responsive" alt="img"></a>
-
-                <div class="journal-txt">
-
-                  <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
-                  <p class="separator">To an English person, it will seem like simplified English
-                  </p>
-
-                </div>
-
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </div>
+      <div class="article_section" id="article_section"></div>
 
     </div><!-- End Journal Section -->
 
@@ -451,6 +392,7 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <script>builArticle();</script>
 
 </body>
 
