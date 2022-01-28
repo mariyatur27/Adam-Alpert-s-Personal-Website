@@ -22,6 +22,84 @@ var articles = [
     },
 ];
 
+var portfolio = [
+    {
+        "work_name": "First Sample Work",
+        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
+        "date": "2022-01-28",
+        "link": "https://www.about.pangea.app/",
+        "class": "professional",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
+    },
+    {
+        "work_name": "Second Sample Work",
+        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
+        "date": "2022-01-28",
+        "link": "https://www.about.pangea.app/",
+        "class": "personal",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
+    },
+    {
+        "work_name": "Third Sample Work",
+        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
+        "date": "2022-01-28",
+        "link": "https://www.about.pangea.app/",
+        "class": "professional",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
+    }
+];
+
+var skills = [
+    {
+        "title" : "UI/UX DESIGN",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-briefcase",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+    {
+        "title" : "MOBILE APPS",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-binoculars",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+    {
+        "title" : "BRAND IDENTITY",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-card-checklist",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+    {
+        "title" : "WEB DESIGN",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-bar-chart",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+    {
+        "title" : "PHOTOGRAPHY",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-calendar4-week",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+    {
+        "title" : "ANALYTICS",
+        "description": "To an English person, it will seem like simplified English,told me what",
+        "icon_name": "bi-brightness-high",
+        "links" : [
+            {"url" : "", "name": ""}
+        ]
+    },
+];
+
 var dataFetched = false;
 
 async function fetch_data() {
@@ -34,4 +112,6 @@ async function fetch_data() {
     }
     // Get recipes from js/recipes.json
     articles = await (await fetch("js/articles.json")).json();
+    portfolio = await (await fetch("js/portfolio.json")).json();
+    skills = await (await fetch("js/skills.json")).json();
 }

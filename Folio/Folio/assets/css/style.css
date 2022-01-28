@@ -436,6 +436,60 @@ ul.list-unstyled.list-social {
   margin-top: -7%;
   line-height: 31px;
 }
+.flex-t.col-md-6.portfolio-item.filter-app {
+  box-shadow: 5px 5px 15px 3px rgb(0 0 0 / 34%);
+  border: none;
+  border-radius: 30px;
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  border: none;
+  border-radius: 30px;
+  height: 275px;
+}
+.box_contents {
+  padding: 5%;
+}
+.personal , .professional {
+  display: block;
+}
+.search_port {
+  padding: 1.1%;
+  width: 70%;
+  border-radius: 33px;
+  border-style: solid;
+  border-color: black;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.flex-t {
+  flex: 0 0 auto;
+  width: 30.333333%;
+  margin-left: 2.2%;
+}
+.bi-link::before {
+  content: "\f471";
+  margin-bottom: 3%;
+  font-size: 28px;
+}
+.link-det-1{
+  margin-left: 85%;
+  margin-top: -3%;
+}
+.link-det-2 {
+  margin-left: 0%;
+  margin-top: 2%;
+  margin-right: 3%;
+}
+h4.p_title {
+  font-size: 22px;
+  font-weight: 400;
+}
+p.p_dscr {
+  line-height: 1.3;
+  font-size: 13px;
+}
 /*--------------------------------------------------------------
 # Styling for Article Boxes
 --------------------------------------------------------------*/
@@ -605,6 +659,7 @@ p.article_dscr {
 .services-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #b8a07e;
 }
+
 
 /*--------------------------------------------------------------
 # Portfolio

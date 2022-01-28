@@ -260,3 +260,15 @@
   });
 
 })()
+
+// Filter Buttons
+document.getElementById('dis_personal').addEventListener('click', function() {
+  var personal = document.getElementsByClassName("personal");
+  var professional = document.getElementsByClassName("professional");
+  var boxes = document.getElementsByClassName("flex-t");
+  for (var i = 0; i < boxes; i++){
+    personal[i].style.display = "block";
+    console.log("yes");
+    professional[i].style.display = "none";
+  }
+})
