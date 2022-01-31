@@ -263,13 +263,29 @@
 
 // Filter Buttons
 document.getElementById('dis_personal').addEventListener('click', function() {
+  var professional = document.getElementsByClassName("professional");
+  var personal = document.getElementsByClassName("personal");
+  for (var i = 0; i < professional.length; i++) {
+    professional[i].style.display = "none";
+  }
+  for (var i = 0; i < personal.length; i++) {
+    personal[i].style.display = "block";
+  }
+})
+document.getElementById('dis_professional').addEventListener('click', function() {
   var personal = document.getElementsByClassName("personal");
   var professional = document.getElementsByClassName("professional");
-  var boxes = document.getElementsByClassName("flex-t");
-  for (var i = 0; i < boxes; i++){
-    personal[i].style.display = "block";
-    console.log("yes");
-    professional[i].style.display = "none";
+  for (var i = 0; i < personal.length; i++) {
+    personal[i].style.display = "none";
+  }
+  for (var i = 0; i < professional.length; i++) {
+    professional[i].style.display = "block";
+  }
+})
+document.getElementById("dis_all").addEventListener("click", function() {
+  var boxes = document.getElementsByClassName('portfolio-item');
+  for (var i = 0; i < boxes.length; i++) {
+    boxes[i].style.display = 'block';
   }
 })
 
@@ -282,3 +298,16 @@ document.getElementById("lrn_mr2").addEventListener("click", function() {
   document.getElementById("gs_sec2").style.display = "block";
 });
 
+//Search bar function
+function Search(input) {
+  var the_boxes = document.getElementsByClassName('portfolio-item');
+  var boxes_text = document.getElementsByClassName('p_title');
+
+  for (var i = 0; i < boxes_text.length; i++){
+    if (!boxes_text[i].innerHTML.toLocaleLowerCase().includes(input)){
+      the_boxes[i].style.display = 'none'
+    }else{
+      the_boxes[i].style.display = 'block'
+    }
+  }
+}

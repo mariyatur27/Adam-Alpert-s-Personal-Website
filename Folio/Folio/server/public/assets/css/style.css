@@ -95,6 +95,7 @@ p {
   font-size: 25px;
   letter-spacing: 2px;
   text-transform: uppercase;
+  margin-top: 2%;
 }
 
 .form-control {
@@ -473,7 +474,7 @@ ul.list-unstyled.list-social {
   width: 70%;
   border-radius: 33px;
   border-style: solid;
-  border-color: black;
+  border-color: #00000038;
   margin-left: 2%;
   margin-bottom: 3%;
 }
@@ -747,6 +748,10 @@ button#price_bt {
 }
 button#checkout_b {
   margin-top: 3%;
+}
+.bigger {
+  color: black;
+  font-size: 50px;
 }
 select {
   background-color: transparent;
