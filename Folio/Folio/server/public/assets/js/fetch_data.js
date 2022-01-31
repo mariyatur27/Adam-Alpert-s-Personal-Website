@@ -111,7 +111,7 @@ async function fetch_data() {
         return;
     }
     // Get recipes from js/recipes.json
-    articles = await (await fetch("js/articles.json")).json();
-    portfolio = await (await fetch("js/portfolio.json")).json();
-    skills = await (await fetch("js/skills.json")).json();
+    articles = await (await fetch("assets/js/articles.json")).json();
+    portfolio = await (await fetch("assets/js/portfolio.json")).json();
+    skills = await (await fetch("assets/js/skills.json")).json();
 }

@@ -4,20 +4,23 @@
         "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
         "date": "2022-01-28",
         "link": "https://www.about.pangea.app/",
-        "thumbnail": "https://uploads-ssl.webflow.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
+        "class": "professional",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
     },
     {
         "work_name": "Second Sample Work",
         "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
         "date": "2022-01-28",
         "link": "https://www.about.pangea.app/",
-        "thumbnail": "https://uploads-ssl.webflow.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
+        "class": "personal",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
     },
     {
         "work_name": "Third Sample Work",
         "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dictum dapibus leo ac egestas. Fusce eget urna odio. Nullam et porta leo. Vestibulum in lobortis urna. Pellentesque rhoncus posuere leo, ut ornare est bibendum vitae. Maecenas fringilla risus vitae condimentum molestie. Nunc scelerisque eu odio sed facilisis. In vestibulum placerat erat, quis malesuada turpis.",
         "date": "2022-01-28",
         "link": "https://www.about.pangea.app/",
-        "thumbnail": "https://uploads-ssl.webflow.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
+        "class": "professional",
+        "thumbnail": "https://web-static.wrike.com/blog/content/uploads/2019/12/Why-is-Project-Management-an-Important-Skill-for-Managers-1-896x518.jpg?av=d09fe2e5cc91c1cd98cd986c43c0e666"
     }
 ]

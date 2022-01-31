@@ -9,7 +9,7 @@ document.getElementById('price_bt').addEventListener("click", function() {
     let price = session_input + (status_input * duration_input)
     console.log(price);
     document.getElementById("checkout").innerHTML = "Your Final Price: $".concat(price);
-    let button = document.createElement("button"); button.name="checkout_b"; button.id="checkout_b"; button.innerHTML = "Proceed to Checkout";
+    let button = document.createElement("button"); button.name="checkout_b"; button.id="checkout_b"; button.innerHTML = "Proceed to Checkout"; button.classList.add("btn");
     document.getElementById("checkout_button").appendChild(button);
 })
 

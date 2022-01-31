@@ -742,6 +742,12 @@ p.article_dscr {
 #contact textarea {
   min-height: 160px;
 }
+button#price_bt {
+  margin-bottom: 3%;
+}
+button#checkout_b {
+  margin-top: 3%;
+}
 select {
   background-color: transparent;
   border: 1px solid #999;
