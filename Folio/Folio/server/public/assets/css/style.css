@@ -478,6 +478,33 @@ ul.list-unstyled.list-social {
   margin-left: 2%;
   margin-bottom: 3%;
 }
+.info-box {
+  flex: 11 0 auto;
+  width: 18.333333%;
+  background-image: linear-gradient(to right, #F3A6FD, #7099FF);
+  margin-left: 1%;
+  text-align: center;
+  border: none;
+  border-radius: 33px;
+  color: white;
+  padding: 2%;
+}
+.info-box p {
+  color: white;
+}
+.info-box h3 {
+  margin-top: 9%;
+}
+i.bi.bi-wallet2 {
+  font-size: 40px;
+}
+.bi-box-arrow-right {
+  margin-left: 85%;
+}
+div#involvements {
+  display: flex;
+  flex-wrap: wrap;
+}
 .flex-t {
   flex: 0 0 auto;
   width: 30.333333%;

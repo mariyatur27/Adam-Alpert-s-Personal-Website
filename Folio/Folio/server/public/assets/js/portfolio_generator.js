@@ -15,6 +15,8 @@ async function buildPortfolio(id=null) {
                     contents.appendChild(title);
                     let dscr = document.createElement("p"); dscr.innerText = info.work_description; dscr.classList.add("p_dscr");
                     contents.appendChild(dscr);
+                    let date = document.createElement("h5"); date.innerText = info.date; date.classList.add("p_date");
+                    contents.appendChild(date);
                 the_box.appendChild(contents);
                 let links = document.createElement("div"); links.classList.add("links");
                     let link1 = document.createElement("a"); link1.href = info.link; link1.setAttribute("target", "a_blank");
