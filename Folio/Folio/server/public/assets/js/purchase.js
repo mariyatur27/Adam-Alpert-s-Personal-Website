@@ -1,6 +1,8 @@
+var session = document.getElementById('event_options');
+var sessionID = Number(session.options[session.selectedIndex].id);
+
 document.getElementById('price_bt').addEventListener("click", function() {
     console.log("hey");
-    var session = document.getElementById('event_options');
     var session_input = Number(session.options[session.selectedIndex].value);
     var status = document.getElementById('status_options');
     var status_input = Number(status.options[status.selectedIndex].value)
@@ -8,8 +10,16 @@ document.getElementById('price_bt').addEventListener("click", function() {
     var duration_input = Number(duration.options[duration.selectedIndex].value)
     let price = session_input + (status_input * duration_input)
     console.log(price);
+    //Properly Storing the user input for later use
+    var priceCents = price * 100;
+    var sessionName = session.options[session.selectedIndex].getAttribute('name');
+    const stripeItem_info = [sessionID, { priceInCents: priceCents, name: sessionName}]
+    // console.log(stripeItem)
+    export default {stripeItem : stripeItem_info }
+
     document.getElementById("checkout").innerHTML = "Your Final Price: $".concat(price);
     let a_button = document.getElementById("checkout_b");
+
     if (!a_button) {
         let button = document.createElement("button"); button.name="checkout_b"; button.id="checkout_b"; button.innerHTML = "Proceed to Checkout"; button.classList.add("btn");
         document.getElementById("checkout_button").appendChild(button);
@@ -18,15 +28,14 @@ document.getElementById('price_bt').addEventListener("click", function() {
 
 document.getElementById("checkout_button").addEventListener("click", function() {
     console.log("checkout");
-    fetch('http://localhost:3000/create-checkout-session', {
+    fetch('http://localhost:3000/create-checkout-sessions', {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json'
         },
         body: JSON.stringify({
             items: [
-                {id: 1, quantity: 3},
-                {id: 2, quantity: 1}
+                {id: sessionID, quantity: 1},
             ]
         })
     }).then(res => {

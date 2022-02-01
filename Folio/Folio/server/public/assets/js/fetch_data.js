@@ -62,12 +62,20 @@ var portfolio = [
         "thumbnail": "https://app.ashbyhq.com/api/images/org-theme-social/d9993cc2-d68b-4dd7-a990-6ae12105f73b/e1b421f9-0445-4a93-b908-839d33d07c54.png"
     },
     {
-        "work_name": "W21 Batch",
-        "work_description": "Top 2% of applications to Y Combinator, accepted to the Winter '21 Batch. YC has backed Airbnb, Doordash, Reddit, and some amazing companies...",
-        "date": "Jan 2021 - Mar 2021",
-        "link": "https://www.linkedin.com/school/y-combinator/",
+        "work_name": "Alumni in Residence",
+        "work_description": "Supporting the RI entrepreneurial community by providing guidance to aspiring entrepreneurs early in their journey.",
+        "date": "Jan 2020 - Dec 2020",
+        "link": "https://www.linkedin.com/school/masschallenge/",
         "class": "personal",
-        "thumbnail": "https://app.ashbyhq.com/api/images/org-theme-social/d9993cc2-d68b-4dd7-a990-6ae12105f73b/e1b421f9-0445-4a93-b908-839d33d07c54.png"
+        "thumbnail": "https://mms.businesswire.com/media/20190220005656/en/706709/23/2017-03-10_HQ_Standard_Vertical.jpg"
+    },
+    {
+        "work_name": "Kairos Fellow",
+        "work_description": "Focusing the next generation on problems worth solving. The Kairos Society’s mission is to focus the next generation of entrepreneurs...",
+        "date": "Jan 2020 - Dec 2020",
+        "link": "https://www.kairos-society.eu/",
+        "class": "personal",
+        "thumbnail": "https://www.whire.me/static/partners/kairos-logo.png"
     }
 ];
 
@@ -147,7 +155,7 @@ var involvements = [
         "name" : "Lorem Ipsum",
         "icon" : "bi-wallet2",
         "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. "
-    }
+    },
 ];
 
 var dataFetched = false;

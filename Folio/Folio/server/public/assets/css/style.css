@@ -501,6 +501,22 @@ i.bi.bi-wallet2 {
 .bi-box-arrow-right {
   margin-left: 85%;
 }
+.flex-t {
+  margin-bottom: 5%;
+}
+#myBar {
+  height: 30px;
+  background-color: #04AA6D;
+  text-align: center; /* To center it horizontally (if you want) */
+  line-height: 30px; /* To center it vertically */
+  color: white;
+}
+.skill-bar h3 {
+  margin-right: 4%;
+}
+.skill-bar {
+  margin-bottom: 2%;
+}
 div#involvements {
   display: flex;
   flex-wrap: wrap;
@@ -659,9 +675,16 @@ p.article_dscr {
 }
 
 #about .about-descr .p-heading {
-  font-family: "Playfair Display", serif;
   font-size: 28px;
   text-align: left;
+}
+.success-ct h2{
+  color: #8bc34a;
+  margin-bottom: 4%;
+}
+.success-ct h5 {
+  margin-bottom: 3%;
+  line-height: 1.5;
 }
 
 #about .about-descr .separator {
