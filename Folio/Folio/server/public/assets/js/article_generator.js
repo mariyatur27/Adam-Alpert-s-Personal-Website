@@ -17,7 +17,7 @@ async function builArticle(id=null) {
                 content.appendChild(title);
                 let dscr = document.createElement("p"); dscr.classList.add("article_dscr"); dscr.innerText = info.description;
                 content.appendChild(dscr);
-                let button = document.createElement("button"); button.classList.add("rd_mr"); button.id="rd_mr"; button.innerHTML = "Continue Reading";
+                let button = document.createElement("button"); button.classList.add("rd_mr2"); button.id="rd_mr"; button.innerHTML = "Continue Reading"; button.id='black';
                 let a_link = document.createElement("a"); a_link.href = info.link; a_link.setAttribute("target", "a_blank");
                 a_link.appendChild(button);
                 content.appendChild(a_link);

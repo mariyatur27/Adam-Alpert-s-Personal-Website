@@ -3,20 +3,14 @@ async function invovleBoxes(id=null) {
         await fetch_data();
     }
 
-    let section = document.getElementById("involvements");
+    let section = document.getElementById("slider_section");
     
     for (const info of involvements) {
         if (id == null || info.id == id) {
-            let box = document.createElement("div"); box.classList.add("info-box");
-                let icon = document.createElement('i'); icon.classList.add("bi"); icon.classList.add(info.icon);
-                box.appendChild(icon);
-                let title = document.createElement("h3"); title.innerText = info.name;
-                box.appendChild(title);
-                let dscr = document.createElement('p'); dscr.innerText = info.description;
-                box.appendChild(dscr);
-                let lrn = document.createElement('i'); lrn.classList.add("bi"); lrn.classList.add("bi-box-arrow-right");
-                box.appendChild(lrn);
-            section.appendChild(box);
+            let the_box = document.createElement("div"); the_box.classList.add('swiper-slide');
+                let img = document.createElement("img"); img.src = info.image; img.classList.add('img-fluid'); img.setAttribute('alt', info.name); img.classList.add("img-f2");
+                the_box.appendChild(img);
+            section.appendChild(the_box);
         }
     }
 }

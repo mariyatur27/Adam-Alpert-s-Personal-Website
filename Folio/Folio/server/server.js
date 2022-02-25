@@ -8,15 +8,15 @@ app.use(express.static("public"))
 
 const stripe = require('stripe')(process.env.STRIPE_PRIVATE_KEY)
 
-import stripeItem from '/public/assets/js/purchase.js';
 
-// const storeItems = new Map([
-//     [1, { priceInCents: 10000, name: "Life Coaching Session"}],
-//     [2, { priceInCents: 20000, name: "Guest Speaking Session"}],
-// ])
+const storeItems = new Map([
+    [1],
+    [2],
+])
 
-const storeItems = stripeItem;
-console.log(storeItems);
+// const {storeItems} = require('./public/assets/js/purchase');
+
+// import {storeItems} from "./public/assets/js/purchase";
 
 app.post('/create-checkout-sessions', async (req, res) => {
     try {
@@ -25,13 +25,23 @@ app.post('/create-checkout-sessions', async (req, res) => {
             mode: 'payment',
             line_items: req.body.items.map(item => {
                 const storeItem = storeItems.get(item.id)
-                return {
+                // return {
+                //     price_data: {
+                //         currency: 'usd',
+                //         product_data: {
+                //             name: storeItem.name
+                //         },
+                //         unit_amount: storeItem.priceInCents
+                //     },
+                //     quantity: item.quantity
+                // }
+               return {
                     price_data: {
                         currency: 'usd',
                         product_data: {
-                            name: storeItem.name
+                            name: item.name
                         },
-                        unit_amount: storeItem.priceInCents
+                        unit_amount: item.price
                     },
                     quantity: item.quantity
                 }

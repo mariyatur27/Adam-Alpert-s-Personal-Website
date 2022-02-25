@@ -47,23 +47,20 @@
   <header id="header" class="fixed-top ">
     <div class="container d-flex align-items-center justify-content-between">
 
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
-      <!-- Uncomment below if you prefer to use an text logo -->
-      <!-- <h1 class="logo"><a href="index.html">Folio</a></h1> -->
+      <a href="index.html" class="logo">Adam Alpert</a>
 
       <nav id="navbar" class="navbar">
         <ul>
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link  scrollto" href="#portfolio">My Jounrney</a></li>
-          <li><a class="nav-link  scrollto" href="#journal">My Experience</a></li>
-          <li><a class="nav-link  scrollto" href="#journal">My Involvements</a></li>
-          <li class="dropdown"><a href="#"><span>Book Me</span> <i class="bi bi-chevron-down"></i></a>
+          <li><a class="nav-link  scrollto" href="#portfolio">My Experience</a></li>
+          <li><a class="nav-link  scrollto" href="#clients">My Involvements</a></li>
+          <li class="dropdown"><a href="#journal"><span>Book Me</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Speaker Opportunities</a></li>
-              <li><a href="#">Life Coaching</a></li>
+              <li><a href="#journal">Speaker Opportunities</a></li>
+              <li><a href="#journal">Life Coaching</a></li>
             </ul>
-          <li><a class="nav-link  scrollto" href="#journal">Contacts</a></li>
+          <li><a class="nav-link  scrollto" href="#contact">Contacts</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -80,10 +77,9 @@
         <p>Entrepreneur, Life Coach, Guest Speaker</p>
 
         <ul class="list-unstyled list-social">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li><br>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li><br>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li><br>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li><br>
+          <li><a href="https://twitter.com/the_pangean"><i class="bi bi-twitter"></i></a></li><br>
+          <li><a href="https://www.instagram.com/adamalp/?hl=en"><i class="bi bi-instagram"></i></a></li><br>
+          <li><a href="https://www.linkedin.com/in/adamalp/"><i class="bi bi-linkedin"></i></a></li><br>
           <li><a href="#"><i class="bi bi-tiktok"></i></a></li><br>
         </ul>
 
@@ -99,10 +95,8 @@
         <div class="row justify-content-between">
 
           <div class="col-lg-4 ">
-            <div class="div-img-bg">
               <div class="about-img">
-                <img src="assets/img/me.jpg" class="img-responsive" alt="me">
-              </div>
+                <img src="https://2eu5ka1s55-flywheel.netdna-ssl.com/wp-content/uploads/2019/10/seo-sydney-1024x1024.png" class="img-responsive" alt="me" style="width: 100%;">
             </div>
           </div>
 
@@ -119,11 +113,16 @@
       </div>
     </div><!-- End About Section -->
 
-    <!-- ======= Services Section ======= -->
+    <!-- ======= About Section ======= -->
     <div id="services">
       <div class="container">
 
         <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="container">
+            <div class="section-title text-center">
+              <h2 style="color: white;">My Values</h2>
+            </div>
+          </div>
           <div class="swiper-wrapper" id="swiper-wrapper"></div>
           </div>
 
@@ -134,54 +133,23 @@
 
     </div><!-- End Services Section -->
 
-    <!-- ======= Skills Section ======= -->
-    <div id="portfolio" class="paddsection">
-
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>My Knowledge and Skills</h2>
-        </div>
-        <div class="skill-bar together" >
-          <h3 style="margin-right: 14%">Leadership</h3>
-          <div id="myBar" class="the_bars">98%</div>
-        </div>
-        <div class="skill-bar together">
-          <h3 style="margin-right: 7%">Entrepreneurship</h3>
-          <div id="myBar" class="the_bars">97%</div>
-        </div>
-        <div class="skill-bar together">
-          <h3 style="margin-right: 8.5%">Public Speaking</h3>
-          <div id="myBar" class="the_bars">95%</div>
-        </div>
-        <div class="skill-bar together">
-          <h3 style="margin-right: 13.6%">Team Work</h3>
-          <div id="myBar" class="the_bars">92%</div>
-        </div>
-        <div class="skill-bar together">
-          <h3 style="margin-right: 3.5%">Business Operations</h3>
-          <div id="myBar" class="the_bars">90%</div>
-        </div>
-      </div>
-    </div>
-     <!-- ======= End of Skills Section ======= -->
-
     <!-- ======= Portfolio Section ======= -->
     <div id="portfolio" class="paddsection">
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>My Experience</h2>
+          <h2>My Achievements</h2>
         </div>
       </div>
 
       <div class="container">
-        <input type="text" name="search_port" id="search_port" class="search_port" placeholder="Search my portfolio..." onkeyup="Search(this.value)">
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <li id="dis_all">All</li>
-              <li id="dis_personal">Personal</li>
-              <li id="dis_professional">Professional</li>
+              <li id="dis_awards">Awards</li>
+              <li id="dis_articles">Articles</li>
+              <li id="dis_podcasts">Podcasts</li>
             </ul>
           </div>
         </div>
@@ -196,32 +164,29 @@
 
     </div><!-- End Portfolio Section -->
 
-     <!-- ======= Involvements Section ======= -->
-     <div id="portfolio" class="paddsection">
+   <!-- ======= Clients Section ======= -->
+   <section id="clients" class="clients">
+    <div class="container">
+      <div class="section-title text-center">
+        <h2>I was a speaker at </h2>
+      </div>
+    </div>
+    <div class="container" data-aos="zoom-in">
 
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>My Involvements</h2>
-        </div>
+      <div class="clients-slider swiper">
+        <div class="swiper-wrapper align-items-center" id="slider_section"></div>
+        <div class="swiper-pagination"></div>
       </div>
 
-      <div class="container">
-        <div class="row portfolio-container">
-
-          <div class="involvements" id="involvements"></div>
-
-        </div>
-
-      </div>
-
-    </div><!-- End Involvements Section -->
+    </div>
+  </section><!-- End Clients Section -->
 
     <!-- Booking Section -->
     <div id="journal" class="text-left paddsection">
 
       <div class="container">
         <div class="section-title text-center">
-          <h2>Book Me!</h2>
+          <h2 style="color:white">Book Me!</h2>
         </div>
       </div>
 
@@ -245,9 +210,9 @@
       </div>
 
       <div class="together">
-        <div class="box-1 box-styles hide" id="lc_sec2">
+        <div class="box-1 box-styles hide" id="lc_sec2" style="position: absolute; top: 765%; left: 0%;">
           <div class="section-title text-center">
-            <h2>Here's what I teach...</h2>
+            <h2 style="text-align: left; margin-left: 4%;">Here's what I teach...</h2>
             <ul class="t_list">
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div> 
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div>
@@ -256,12 +221,11 @@
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div>
             </ul>
             <a href=""><button class="rd_mr top">Contact Me</button></a>
-            <a href="purchase.html"><button class="rd_mr top">Book a Meeting</button></a>
           </div>
         </div>
-        <div class="box-2 box-styles hide" id="gs_sec2">
+        <div class="box-2 box-styles hide" id="gs_sec2" style="position: absolute; top: 765%; left: 50%;">
           <div class="section-title text-center">
-            <h2>Here's what I teach...</h2>
+            <h2 style="text-align: left; margin-left: 4%;">Here's what I teach...</h2>
             <ul class="t_list">
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div> 
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div>
@@ -269,8 +233,7 @@
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div>
               <div class="together top"><i class="bi bi-check2-circle"></i><li>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</li></div>
             </ul>
-            <a href=""><button class="rd_mr top">Contact Me</button></a>
-            <a href="purchase.html"><button class="rd_mr top">Book a Meeting</button></a>
+            <a href=""><button class="rd_mr top">Let's Chat</button></a>
           </div>
         </div>
       </div>
@@ -279,7 +242,7 @@
     <!-- End of Booking Section -->
 
     <!-- ======= Journal Section ======= -->
-    <div id="journal" class="text-left paddsection">
+    <div id="journal2" class="text-left paddsection">
 
       <div class="container">
         <div class="section-title text-center">
@@ -323,15 +286,14 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://twitter.com/the_pangean"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/adamalp/?hl=en"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/adamalp/"><i class="bi bi-linkedin"></i></a></li>
         </ul>
 
       </div>
 
-      <p>&copy; Copyrights Folio. All rights reserved.</p>
+      <p style="color: grey;">&copy; Copyrights Adam Alpert. All rights reserved.</p>
 
       <div class="credits">
         <!--
@@ -346,7 +308,7 @@
     </div>
   </div><!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a> -->
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -361,7 +323,7 @@
   <script>builArticle();</script>
   <script>buildPortfolio();</script>
   <script>skillSlides();</script>
-  <script>invovleBoxes();</script> 
+  <script>invovleBoxes();</script>
 </body>
 
 </html>

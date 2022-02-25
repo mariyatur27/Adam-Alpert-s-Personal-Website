@@ -13,9 +13,11 @@ document.getElementById('price_bt').addEventListener("click", function() {
     //Properly Storing the user input for later use
     var priceCents = price * 100;
     var sessionName = session.options[session.selectedIndex].getAttribute('name');
-    const stripeItem_info = [sessionID, { priceInCents: priceCents, name: sessionName}]
-    // console.log(stripeItem)
-    export default {stripeItem : stripeItem_info }
+    window.storeItems = [sessionID, { priceInCents: priceCents, name: sessionName}]
+    // module.exports = storeItems;
+    // export default storeItems;
+    // exports = {storeItems};
+    // console.log(storeItems)
 
     document.getElementById("checkout").innerHTML = "Your Final Price: $".concat(price);
     let a_button = document.getElementById("checkout_b");
@@ -35,7 +37,7 @@ document.getElementById("checkout_button").addEventListener("click", function() 
         },
         body: JSON.stringify({
             items: [
-                {id: sessionID, quantity: 1},
+                {id: sessionID, quantity: 1, price: storeItems[1][0], name: storeItems[1][1]},
             ]
         })
     }).then(res => {

@@ -207,6 +207,43 @@
   });
 
   /**
+   * Clients Slider
+   */
+   new Swiper('.clients-slider', {
+    speed: 400,
+    loop: true,
+    autoplay: {
+      delay: 5000,
+      disableOnInteraction: false
+    },
+    slidesPerView: 'auto',
+    pagination: {
+      el: '.swiper-pagination',
+      type: 'bullets',
+      clickable: true
+    },
+    breakpoints: {
+      320: {
+        slidesPerView: 2,
+        spaceBetween: 40
+      },
+      480: {
+        slidesPerView: 3,
+        spaceBetween: 60
+      },
+      640: {
+        slidesPerView: 4,
+        spaceBetween: 80
+      },
+      992: {
+        slidesPerView: 6,
+        spaceBetween: 120
+      }
+    }
+  });
+
+
+  /**
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
@@ -262,24 +299,46 @@
 })()
 
 // Filter Buttons
-document.getElementById('dis_personal').addEventListener('click', function() {
-  var professional = document.getElementsByClassName("professional");
-  var personal = document.getElementsByClassName("personal");
-  for (var i = 0; i < professional.length; i++) {
-    professional[i].style.display = "none";
+document.getElementById('dis_awards').addEventListener('click', function() {
+  var article = document.getElementsByClassName("article");
+  var award = document.getElementsByClassName("award");
+  var podcast = document.getElementsByClassName("podcast");
+  for (var i = 0; i < article.length; i++) {
+    article[i].style.display = "none";
   }
-  for (var i = 0; i < personal.length; i++) {
-    personal[i].style.display = "block";
+  for (var i = 0; i < podcast.length; i++) {
+    podcast[i].style.display = "none";
+  }
+  for (var i = 0; i < award.length; i++) {
+    award[i].style.display = "block";
   }
 })
-document.getElementById('dis_professional').addEventListener('click', function() {
-  var personal = document.getElementsByClassName("personal");
-  var professional = document.getElementsByClassName("professional");
-  for (var i = 0; i < personal.length; i++) {
-    personal[i].style.display = "none";
+document.getElementById('dis_articles').addEventListener('click', function() {
+  var article = document.getElementsByClassName("article");
+  var award = document.getElementsByClassName("award");
+  var podcast = document.getElementsByClassName("podcast");
+  for (var i = 0; i < award.length; i++) {
+    award[i].style.display = "none";
   }
-  for (var i = 0; i < professional.length; i++) {
-    professional[i].style.display = "block";
+  for (var i = 0; i < podcast.length; i++) {
+    podcast[i].style.display = "none";
+  }
+  for (var i = 0; i < article.length; i++) {
+    article[i].style.display = "block";
+  }
+})
+document.getElementById('dis_podcasts').addEventListener('click', function() {
+  var article = document.getElementsByClassName("article");
+  var award = document.getElementsByClassName("award");
+  var podcast = document.getElementsByClassName("podcast");
+  for (var i = 0; i < award.length; i++) {
+    award[i].style.display = "none";
+  }
+  for (var i = 0; i < article.length; i++) {
+    article[i].style.display = "none";
+  }
+  for (var i = 0; i < article.length; i++) {
+    podcast[i].style.display = "block";
   }
 })
 document.getElementById("dis_all").addEventListener("click", function() {
@@ -292,10 +351,14 @@ document.getElementById("dis_all").addEventListener("click", function() {
 
 document.getElementById("lrn_mr1").addEventListener("click", function() {
   document.getElementById("lc_sec2").style.display = "block";
+  document.getElementById('journal2').style.marginTop = "25%";
+  document.getElementById("lrn_mr1").style.display= 'none';
 });
 
 document.getElementById("lrn_mr2").addEventListener("click", function() {
   document.getElementById("gs_sec2").style.display = "block";
+  document.getElementById('journal2').style.marginTop = "25%";
+  document.getElementById("lrn_mr2").style.display= 'none';
 });
 
 //Search bar function
