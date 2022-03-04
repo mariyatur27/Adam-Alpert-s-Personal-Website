@@ -19,20 +19,6 @@ var articles = [
         "image" : "https://daily-voice-res.cloudinary.com/image/upload/c_fill,dpr_1,f_auto,q_auto:eco,w_640/Pangea_y5gky5",
         "description" : "John Tambunting of Scarsdale, Adam Alpert of Harrison, and Isaac Zussman of Pawtucket RI are the brains behind Pangeamart, an app that connects gig workers -- those in the freelance space -- with jobs. ",
         "link": "https://dailyvoice.com/new-york/mamaroneck/neighbors/westchester-natives-hope-to-unite-the-world-with-new-app/722463/"
-    },
-    {
-        "title" : "Pangea.app raises $400K pre-seed round to help connect student workers with businesses",
-        "publisher" : "Tech Crunch",
-        "image" : "https://techcrunch.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-10-at-2.34.42-PM.png?w=1390&crop=1",
-        "description" : "Pangea.app, a Providence, Rhode Island-based startup has raised a $400,000 pre-seed round, it told TechCrunch this week. The company’s new capital, raised as a post-money SAFE, comes from PJC, a Boston-based venture capital firm and Underdog Labs. Previously, Pangea.app raised money from angel investors.",
-        "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/"
-    },
-    {
-        "title" : "Brown Students Unveil Pangea, a Coed Peer-to-Peer Marketplace (For Now)",
-        "publisher" : "RHODEISLANDINNO",
-        "image" : "https://media.bizj.us/view/img/11799857/pangea-header*900xx667-500-201-0.jpg",
-        "description" : "Pangea, if you recall, is the name for Earth’s singular supercontinent before ice ages and years of tectonic shifts separated said land mass into today’s seven. It’s a word synonymous with connection and unity, and for Adam Alpert, it was the best term to summarize the mission of his startup.",
-        "link": "https://www.bizjournals.com/rhodeisland/inno/stories/profiles/2017/09/18/brown-students-unveil-pangea-a-coed-peer-to-peer.html"
     }
 ];
 

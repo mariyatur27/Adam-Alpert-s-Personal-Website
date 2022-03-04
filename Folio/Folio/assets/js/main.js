@@ -359,6 +359,7 @@ document.getElementById("lrn_mr2").addEventListener("click", function() {
   document.getElementById("gs_sec2").style.display = "block";
   document.getElementById('journal2').style.marginTop = "25%";
   document.getElementById("lrn_mr2").style.display= 'none';
+  document.getElementById('gs_sec2').style.marginLeft = '50%';
 });
 
 //Search bar function
