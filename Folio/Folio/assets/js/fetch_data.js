@@ -265,6 +265,10 @@ var involvements = [
         "name" : "Univeristy of North Carolina - Chapel Hill",
         "image": "https://i.pinimg.com/originals/15/3a/cb/153acbc4b616698ca3f4ddd028dc8aa4.jpg"
     },
+    {
+        "name" : "Brown University",
+        "image": "https://i.pinimg.com/originals/15/3a/cb/153acbc4b616698ca3f4ddd028dc8aa4.jpg"
+    },
 ];
 
 var dataFetched = false;
