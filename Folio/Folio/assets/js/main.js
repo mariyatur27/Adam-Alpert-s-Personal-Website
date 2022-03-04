@@ -354,7 +354,7 @@ document.getElementById("lrn_mr1").addEventListener("click", function() {
   document.getElementById('journal2').style.marginTop = "25%";
   document.getElementById("lrn_mr1").style.display= 'none';
 });
-
+// A practice comment
 document.getElementById("lrn_mr2").addEventListener("click", function() {
   document.getElementById("gs_sec2").style.display = "block";
   document.getElementById('journal2').style.marginTop = "25%";
