@@ -112,6 +112,33 @@ var portfolio = [
         "thumbnail": "https://techcrunch.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-28-at-12.53.48-PM.png?w=1390&crop=1"
     },
     {
+        "work_name" : "Pangea.app Launches To Help College Students Freelance",
+        "publisher" : "Crunchbase News",
+        "class": "article",
+        "date": "2018",
+        "thumbnail" : "https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/craigslist_competitors.png",
+        "work_description" : "Over the past 20 years, tuition rates have spiked by more than 150 percent. More students are pursuing their degrees, only to graduate with a staggering amount of debt, and getting a flexible college job...",
+        "link": "https://news.crunchbase.com/news/pangea-app-launches-to-help-college-students-freelance/"
+    },
+    {
+        "work_name" : "Rhode Island's Pangea.app selected for Y Combinator",
+        "publisher" : "RHODEISLANDINNO",
+        "class": "article",
+        "date": "2021",
+        "thumbnail" : "https://media.bizj.us/view/img/11927404/pangea-house-2*900xx885-667-107-0.jpg",
+        "work_description" : "Unbeknownst to most, the Providence-based startup Pangea.app has quietly been working its way through the same accelerator that has churned out unicorns like Stripe, Airbnb and Coinbase.",
+        "link": "https://www.bizjournals.com/rhodeisland/inno/stories/news/2021/03/09/rhode-islands-pangea-app-selected-for-y-combinator.html"
+    },
+    {
+        "work_name" : "Westchester Natives Hope To 'Unite The World' With New App",
+        "publisher" : "Daily Voice",
+        "date": "2017",
+        "class": "article",
+        "thumbnail" : "https://daily-voice-res.cloudinary.com/image/upload/c_fill,dpr_1,f_auto,q_auto:eco,w_640/Pangea_y5gky5",
+        "work_description" : "John Tambunting of Scarsdale, Adam Alpert of Harrison, and Isaac Zussman of Pawtucket RI are the brains behind Pangeamart, an app that connects gig workers -- those in the freelance space -- with jobs. ",
+        "link": "https://dailyvoice.com/new-york/mamaroneck/neighbors/westchester-natives-hope-to-unite-the-world-with-new-app/722463/"
+    },
+    {
         "work_name": "The Evolution of Pangea.app with Adam Alpert - T20E World",
         "work_description": "In this episode, ‘The Evolution of pangea.app’ with special guest Adam Alpert, you will hear from Adam who is the Founder/CEO of pangea.app...",
         "date": "2021",
