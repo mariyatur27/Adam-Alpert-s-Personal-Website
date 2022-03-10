@@ -29,7 +29,7 @@ var portfolio = [
         "date": "2020",
         "link": "https://www.about.pangea.app/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://entrepreneurship.brown.edu/wp-content/uploads/2018/09/get_started_ri_stage.fw_-e1536962018748.png"
     },
     {
         "work_name": "RI INNO Top Startups",
@@ -37,7 +37,7 @@ var portfolio = [
         "date": "2020",
         "link": "https://www.linkedin.com/company/rihub/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://media.bizj.us/view/img/11922772/ri-s2w-2*1200xx889-667-156-0.png"
     },
     {
         "work_name": "MassChallenge RI Finalist",
@@ -45,7 +45,7 @@ var portfolio = [
         "date": "2019",
         "link": "https://www.linkedin.com/school/y-combinator/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://graphenecomposites.com/wp-content/uploads/2021/09/logo8-e1632476609294.png"
     },
     {
         "work_name": "RI INNO Blazer Award Winner",
@@ -53,7 +53,7 @@ var portfolio = [
         "date": "2019",
         "link": "https://www.linkedin.com/school/masschallenge/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://media.bizj.us/view/img/12031337/ri-firesocial-1adobespark*300xx1700-1275-0-0.jpg"
     },
     {
         "work_name": "Kairos Fellow",
@@ -61,7 +61,7 @@ var portfolio = [
         "date": "2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://gust-production.s3.amazonaws.com/uploads/investor_group/logo_image/63492/kairos.png"
     },
     {
         "work_name": "50 Rising Entrepreneurs",
@@ -69,7 +69,7 @@ var portfolio = [
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://d390ia02pbs2qz.cloudfront.net/images/_1200x630_crop_center-center_82_none/ribc-social-poster.png?mtime=1602530839"
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
@@ -77,7 +77,7 @@ var portfolio = [
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://i.ytimg.com/vi/e1MD5xNGWV0/maxresdefault.jpg"
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
@@ -85,7 +85,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://assets.website-files.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
@@ -93,7 +93,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://techcrunch.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-10-at-2.34.42-PM.png?w=1390&crop=1"
     },
     {
         "work_name": "Pangea.app raises $400K pre-seed round to help connect student workers with businesses",
@@ -101,7 +101,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://images.prismic.io/prydocs/f16988d1-d657-4f27-baa0-09f432f2ca14_Pangea.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&lossless=true&max-w=1280&q=65"
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
@@ -109,7 +109,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2021/07/29/student-labor-marketplace-pangea-closes-2m-seed-round/",
         "class": "article",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://techcrunch.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-28-at-12.53.48-PM.png?w=1390&crop=1"
     },
     {
         "work_name": "The Evolution of Pangea.app with Adam Alpert - T20E World",
@@ -117,7 +117,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL1QyMEVXb3JsZC9mZWVkLnhtbA/episode/VDIwRVdvcmxkLnBvZGJlYW4uY29tL2QzYmYwNzQ3LTBmZGQtM2FkOC1hOTZjLTdiOThjODZkMjQ1NQ?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAa&ep=6",
         "class": "podcast",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/294ce3110109967.5fe3c48135d20.jpg"
     },
     {
         "work_name": "Tips for founders thinking about doing a remote accelerator - Equity",
@@ -125,7 +125,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9MRGQwbWFXTg/episode/ZmU1MDNhZmQtNzcxOS00NmYyLWJjNmMtMzllNjVmYTg0OGE0?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAU&ep=6",
         "class": "podcast",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://image.simplecastcdn.com/images/bec35abe-8add-4943-9e73-60f0d388a4a2/438c3848-6280-4270-b784-3b4ace04efa1/3000x3000/equity_podcast_techcrunch_2019_edge.jpg?aid=rss_feed"
     },
     {
         "work_name": "Democratizing Internships with Pangea.app - Learning Tech Talks",
@@ -133,7 +133,7 @@ var portfolio = [
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lMDM2MGMwL3BvZGNhc3QvcnNz/episode/YjI2NTQyZjUtYzZiZC00NGIxLWIzMTMtMWNkMGNlZjAyZmMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAL&ep=6",
         "class": "podcast",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://is4-ssl.mzstatic.com/image/thumb/Podcasts125/v4/fa/7e/d9/fa7ed942-07f0-3c47-2e19-c3c91776615f/mza_3494937933462157283.jpg/1200x600wp.png"
     },
     {
         "work_name": "Internships for the 21st Century with Adam Alpert of Pangea",
@@ -141,7 +141,7 @@ var portfolio = [
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
-        "thumbnail": "https://thrivemyway.com/wp-content/uploads/2021/11/How-to-Become-a-Successful-Online-Entrepreneur-1.3..jpg"
+        "thumbnail": "https://images.squarespace-cdn.com/content/v1/5ffbef2dd7c44740fac59a7e/1633536061582-PMIN4N7USRKRSDBFET40/IMG_5961.jpg?format=1000w"
     }
 ];
 

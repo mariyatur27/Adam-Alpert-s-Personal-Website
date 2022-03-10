@@ -482,6 +482,8 @@ ul.list-unstyled.list-social {
   height: auto;
   border: none;
   border-radius: 30px;
+  height: 47%;
+  width: 101%;
 }
 .img-f2 {
   max-width: 140%;
