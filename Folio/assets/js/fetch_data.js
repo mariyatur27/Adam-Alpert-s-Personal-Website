@@ -69,7 +69,7 @@ var portfolio = [
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://d390ia02pbs2qz.cloudfront.net/images/_1200x630_crop_center-center_82_none/ribc-social-poster.png?mtime=1602530839"
+        "thumbnail": "assets/img/risingstar.png"
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
@@ -77,7 +77,7 @@ var portfolio = [
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://i.ytimg.com/vi/e1MD5xNGWV0/maxresdefault.jpg"
+        "thumbnail": "assets/img/25u25.jpeg"
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
@@ -85,7 +85,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
-        "thumbnail": "https://assets.website-files.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
@@ -101,7 +101,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "https://images.prismic.io/prydocs/f16988d1-d657-4f27-baa0-09f432f2ca14_Pangea.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&lossless=true&max-w=1280&q=65"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
@@ -168,7 +168,7 @@ var portfolio = [
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/5ffbef2dd7c44740fac59a7e/1633536061582-PMIN4N7USRKRSDBFET40/IMG_5961.jpg?format=1000w"
+        "thumbnail": "assets/img/podcast2.jpeg"
     }
 ];
 
