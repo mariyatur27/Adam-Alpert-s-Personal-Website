@@ -484,6 +484,7 @@ ul.list-unstyled.list-social {
   border-radius: 30px;
   height: 47%;
   width: 101%;
+  object-fit: cover;
 }
 .img-f2 {
   max-width: 140%;
@@ -673,6 +674,16 @@ p.article_dscr {
   }
   img.thumbnail {
     width: 43%;
+  }
+  .item2{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 13%;
+    box-shadow: 0px 0px 14px 0px rgb(0 0 0 / 21%);
+    border-radius: 27px;
+  }
+  #hero {
+    background-position-x: 67%;
   }
   h2.article_title {
     font-size: 17px;
