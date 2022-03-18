@@ -69,7 +69,7 @@ var portfolio = [
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "assets/img/risingstar.png"
+        "thumbnail": "risingstar.png"
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
@@ -77,7 +77,7 @@ var portfolio = [
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "assets/img/25u25.jpeg"
+        "thumbnail": "25u25.jpeg"
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
@@ -85,7 +85,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
-        "thumbnail": "assets/img/Techcrunch.jpeg"
+        "thumbnail": "Techcrunch.jpeg"
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
@@ -101,7 +101,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "assets/img/Techcrunch.jpeg"
+        "thumbnail": "Techcrunch.jpeg"
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
@@ -159,7 +159,7 @@ var portfolio = [
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
-        "thumbnail": "assets/img/podcast2.jpeg"
+        "thumbnail": "podcast2.jpeg"
     }
 ];
 
