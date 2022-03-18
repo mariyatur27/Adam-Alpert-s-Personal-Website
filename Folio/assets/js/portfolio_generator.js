@@ -9,18 +9,7 @@ async function buildPortfolio(id=null) {
     
     for (const info of portfolio) {
         if (id == null || info.id == id) {
-            let the_box = document.createElement("div");  the_box.classList.add("portfolio-item"); the_box.classList.add("filter-app"); the_box.classList.add(info.class); the_box.classList.add("flex-t"); the_box.classList.add("col-md-6");
-            if (width <= 500){
-                the_box.classList.remove("flex-t"); the_box.classList.remove("col-md-6");
-                the_box.classList.add('item2');
-                console.log(width)
-            }
-            // if (screen.matches) {
-            //     the_box.classList.remove("flex-t"); the_box.classList.remove("col-md-6");
-            //     console.log('media')
-            // }else{
-            //     the_box.classList.add("flex-t"); the_box.classList.add("col-md-6");
-            // }
+            let the_box = document.createElement("div");  the_box.classList.add("portfolio-item", "filter-app", info.class, "flex-t", "col-md-6", "item2");
                 let thumbnail = document.createElement("img"); thumbnail.classList.add("img-fluid"); thumbnail.src = info.thumbnail;
                 the_box.appendChild(thumbnail);
                 let contents = document.createElement("div"); contents.classList.add("box_contents");

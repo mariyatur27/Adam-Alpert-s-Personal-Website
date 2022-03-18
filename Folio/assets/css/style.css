@@ -475,11 +475,6 @@ ul.list-unstyled.list-social {
   margin-top: -7%;
   line-height: 31px;
 }
-.flex-t.col-md-6.portfolio-item.filter-app {
-  box-shadow: 5px 5px 15px 3px rgb(0 0 0 / 18%);
-  border: none;
-  border-radius: 30px;
-}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -530,8 +525,19 @@ i.bi.bi-wallet2 {
 .bi-box-arrow-right {
   margin-left: 85%;
 }
-.flex-t {
-  margin-bottom: 5%;
+@media(min-width: 500px) {
+  .flex-t {
+    margin-bottom: 5%;
+    flex: 0 0 auto;
+    width: 30.333333%;
+    margin-left: 2.2%;
+    height: 569px;
+  }
+  .flex-t.col-md-6.portfolio-item.filter-app {
+    box-shadow: 5px 5px 15px 3px rgb(0 0 0 / 18%);
+    border: none;
+    border-radius: 30px;
+  }
 }
 #myBar {
   height: 30px;
@@ -549,12 +555,6 @@ i.bi.bi-wallet2 {
 div#involvements {
   display: flex;
   flex-wrap: wrap;
-}
-.flex-t {
-  flex: 0 0 auto;
-  width: 30.333333%;
-  margin-left: 2.2%;
-  height: 569px;
 }
 .bi-link::before {
   content: "\f471";
@@ -730,12 +730,6 @@ p.article_dscr {
   }
   .img-f2 {
     max-width: 70%;
-  }
-  .flex-t {
-    display: block;
-    flex: none;
-    width: 30.333333%;
-    margin-left: 2.2%;
   }
   .row{
     display:block;
