@@ -423,6 +423,9 @@ p {
 #black {
   background-color: #14192b;
 }
+.img-size {
+  width: 117%;
+}
 
 /*--------------------------------------------------------------
 # Hero
@@ -674,6 +677,9 @@ p.article_dscr {
   }
   img.thumbnail {
     width: 43%;
+  }
+  .img-size {
+    width: 100%;
   }
   .item2{
     width: 80%;

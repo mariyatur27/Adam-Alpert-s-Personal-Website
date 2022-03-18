@@ -25,7 +25,7 @@ var articles = [
 var portfolio = [
     {
         "work_name": "Get Started RI Finalist",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Selected as a top finalist in pitch competition sponsored by Cox Media",
         "date": "2020",
         "link": "https://www.about.pangea.app/",
         "class": "award",
@@ -33,7 +33,7 @@ var portfolio = [
     },
     {
         "work_name": "RI INNO Top Startups",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named on of Rhode Island's top startups to watch in 2021by RI Inno",
         "date": "2020",
         "link": "https://www.linkedin.com/company/rihub/",
         "class": "award",
@@ -41,7 +41,7 @@ var portfolio = [
     },
     {
         "work_name": "MassChallenge RI Finalist",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Top 2% of applicants to Masschallenge RI 2019",
         "date": "2019",
         "link": "https://www.linkedin.com/school/y-combinator/",
         "class": "award",
@@ -49,7 +49,7 @@ var portfolio = [
     },
     {
         "work_name": "RI INNO Blazer Award Winner",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Winner of RI Inno Blazer award",
         "date": "2019",
         "link": "https://www.linkedin.com/school/masschallenge/",
         "class": "award",
@@ -57,7 +57,7 @@ var portfolio = [
     },
     {
         "work_name": "Kairos Fellow",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Inducted into the Kairos fellowship and provided complimentary VIP invitation to Forbes 30u30 event",
         "date": "2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
@@ -65,7 +65,7 @@ var portfolio = [
     },
     {
         "work_name": "50 Rising Entrepreneurs",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named one of the top 50 rising entrepreneurs in the Greater Boston ecosystem, 2 years in a row",
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
@@ -73,7 +73,7 @@ var portfolio = [
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named one of the 25u25 in Rhode Island by RI Inno",
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
@@ -81,7 +81,7 @@ var portfolio = [
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
-        "work_description": "Adam Alpert is cofounder and chief executive of Pangea.app, a Providence startup that connects companies with college students for freelance work. When was Pangea.app formed, and what inspired its creation?",
+        "work_description": "Featured on front page of Boston Globe’s business section",
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
@@ -89,14 +89,14 @@ var portfolio = [
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
-        "work_description": "Pangea, a marketplace startup that wants to connect college freelancers and companies in need of digital help, is seeing its growth rate accelerate as it races...",
+        "work_description": "Selected as one of 5% of our YC batch to be featured in Techcrunch ahead of Demo Day",
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
         "thumbnail": "https://techcrunch.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-10-at-2.34.42-PM.png?w=1390&crop=1"
     },
     {
-        "work_name": "Pangea.app raises $400K pre-seed round to help connect student workers with businesses",
+        "work_name": "Successfully raised a $400k pre-seed round in 2020",
         "work_description": "Pangea.app, a Providence, Rhode Island-based startup has raised a $400,000 pre-seed round...",
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
@@ -105,7 +105,7 @@ var portfolio = [
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
-        "work_description": "Pangea, a Providence, Rhode Island-based startup that connects youthful talent and businesses in need of freelance labor, announced this morning that it has...",
+        "work_description": "Successfully raised a $2mm Seed round in 2021",
         "date": "2021",
         "link": "https://techcrunch.com/2021/07/29/student-labor-marketplace-pangea-closes-2m-seed-round/",
         "class": "article",
@@ -117,7 +117,7 @@ var portfolio = [
         "class": "article",
         "date": "2018",
         "thumbnail" : "https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/craigslist_competitors.png",
-        "work_description" : "Over the past 20 years, tuition rates have spiked by more than 150 percent. More students are pursuing their degrees, only to graduate with a staggering amount of debt, and getting a flexible college job...",
+        "work_description" : "Featured in Crunchbase at our initial launch in 2018",
         "link": "https://news.crunchbase.com/news/pangea-app-launches-to-help-college-students-freelance/"
     },
     {
@@ -126,21 +126,12 @@ var portfolio = [
         "class": "article",
         "date": "2021",
         "thumbnail" : "https://media.bizj.us/view/img/11927404/pangea-house-2*900xx885-667-107-0.jpg",
-        "work_description" : "Unbeknownst to most, the Providence-based startup Pangea.app has quietly been working its way through the same accelerator that has churned out unicorns like Stripe, Airbnb and Coinbase.",
+        "work_description" : "Selected to join Y Combinator’s W21 batch as top 2% of applicants",
         "link": "https://www.bizjournals.com/rhodeisland/inno/stories/news/2021/03/09/rhode-islands-pangea-app-selected-for-y-combinator.html"
     },
     {
-        "work_name" : "Westchester Natives Hope To 'Unite The World' With New App",
-        "publisher" : "Daily Voice",
-        "date": "2017",
-        "class": "article",
-        "thumbnail" : "https://daily-voice-res.cloudinary.com/image/upload/c_fill,dpr_1,f_auto,q_auto:eco,w_640/Pangea_y5gky5",
-        "work_description" : "John Tambunting of Scarsdale, Adam Alpert of Harrison, and Isaac Zussman of Pawtucket RI are the brains behind Pangeamart, an app that connects gig workers -- those in the freelance space -- with jobs. ",
-        "link": "https://dailyvoice.com/new-york/mamaroneck/neighbors/westchester-natives-hope-to-unite-the-world-with-new-app/722463/"
-    },
-    {
         "work_name": "The Evolution of Pangea.app with Adam Alpert - T20E World",
-        "work_description": "In this episode, ‘The Evolution of pangea.app’ with special guest Adam Alpert, you will hear from Adam who is the Founder/CEO of pangea.app...",
+        "work_description": "Featured on a podcast with T20E world",
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL1QyMEVXb3JsZC9mZWVkLnhtbA/episode/VDIwRVdvcmxkLnBvZGJlYW4uY29tL2QzYmYwNzQ3LTBmZGQtM2FkOC1hOTZjLTdiOThjODZkMjQ1NQ?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAa&ep=6",
         "class": "podcast",
@@ -148,7 +139,7 @@ var portfolio = [
     },
     {
         "work_name": "Tips for founders thinking about doing a remote accelerator - Equity",
-        "work_description": "For this week’s deep dive, the Equity team got ahold of three founders from the recent Y Combinator batch (more here, and here) to chat through their experiences...",
+        "work_description": "Featured on Techcrunch podcast  talking about remote accelerators",
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9MRGQwbWFXTg/episode/ZmU1MDNhZmQtNzcxOS00NmYyLWJjNmMtMzllNjVmYTg0OGE0?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAU&ep=6",
         "class": "podcast",
@@ -156,7 +147,7 @@ var portfolio = [
     },
     {
         "work_name": "Democratizing Internships with Pangea.app - Learning Tech Talks",
-        "work_description": "In this Learning Tech Talks, I’m interning with Adam Alpert, CEO & Cofounder of Pangea.app to get a better picture of their platform and what it’s providing for...",
+        "work_description": "Featured on podcast with Learning Tech",
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lMDM2MGMwL3BvZGNhc3QvcnNz/episode/YjI2NTQyZjUtYzZiZC00NGIxLWIzMTMtMWNkMGNlZjAyZmMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAL&ep=6",
         "class": "podcast",
@@ -164,7 +155,7 @@ var portfolio = [
     },
     {
         "work_name": "Internships for the 21st Century with Adam Alpert of Pangea",
-        "work_description": "Adam Alpert is the CEO and co-founder at Pangea.App, the new company that's paving the way for thousands of talented college students to enter the workforce...",
+        "work_description": "Featured on podcast with our friends at Wyndly",
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
@@ -174,53 +165,37 @@ var portfolio = [
 
 var skills = [
     {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
+        "title" : "Patience",
+        "description": "Most good things take time and I’ve learned to not rush",
         "icon_name": "bi-briefcase",
         "links" : [
             {"url" : "", "name": ""}
         ]
     },
     {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
+        "title" : "Courage",
+        "description": "Doing the right thing isn’t always easy, but it is always worth it",
         "icon_name": "bi-binoculars",
         "links" : [
             {"url" : "", "name": ""}
         ]
     },
     {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
+        "title" : "Wisdom",
+        "description": "Surrounding yourself with role models you look up to has helps make smart decisions",
         "icon_name": "bi-card-checklist",
         "links" : [
             {"url" : "", "name": ""}
         ]
     },
     {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
+        "title" : "Justice",
+        "description": "It’s crucial to empathize with others and think how your actions might affect them",
         "icon_name": "bi-bar-chart",
         "links" : [
             {"url" : "", "name": ""}
         ]
-    },
-    {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
-        "icon_name": "bi-calendar4-week",
-        "links" : [
-            {"url" : "", "name": ""}
-        ]
-    },
-    {
-        "title" : "My Value",
-        "description": "To an English person, it will seem like simplified English,told me what",
-        "icon_name": "bi-brightness-high",
-        "links" : [
-            {"url" : "", "name": ""}
-        ]
-    },
+    }
 ];
 
 var involvements = [
@@ -291,11 +266,7 @@ var involvements = [
     {
         "name" : "Univeristy of North Carolina - Chapel Hill",
         "image": "https://i.pinimg.com/originals/15/3a/cb/153acbc4b616698ca3f4ddd028dc8aa4.jpg"
-    },
-    {
-        "name" : "Brown University",
-        "image": "https://i.pinimg.com/originals/15/3a/cb/153acbc4b616698ca3f4ddd028dc8aa4.jpg"
-    },
+    }
 ];
 
 var dataFetched = false;
