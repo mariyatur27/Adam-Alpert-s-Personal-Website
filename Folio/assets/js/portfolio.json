@@ -1,7 +1,7 @@
 [
     {
         "work_name": "Get Started RI Finalist",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Selected as a top finalist in pitch competition sponsored by Cox Media",
         "date": "2020",
         "link": "https://www.about.pangea.app/",
         "class": "award",
@@ -9,7 +9,7 @@
     },
     {
         "work_name": "RI INNO Top Startups",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named on of Rhode Island's top startups to watch in 2021by RI Inno",
         "date": "2020",
         "link": "https://www.linkedin.com/company/rihub/",
         "class": "award",
@@ -17,7 +17,7 @@
     },
     {
         "work_name": "MassChallenge RI Finalist",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Top 2% of applicants to Masschallenge RI 2019",
         "date": "2019",
         "link": "https://www.linkedin.com/school/y-combinator/",
         "class": "award",
@@ -25,7 +25,7 @@
     },
     {
         "work_name": "RI INNO Blazer Award Winner",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Winner of RI Inno Blazer award",
         "date": "2019",
         "link": "https://www.linkedin.com/school/masschallenge/",
         "class": "award",
@@ -33,7 +33,7 @@
     },
     {
         "work_name": "Kairos Fellow",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Inducted into the Kairos fellowship and provided complimentary VIP invitation to Forbes 30u30 event",
         "date": "2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
@@ -41,55 +41,73 @@
     },
     {
         "work_name": "50 Rising Entrepreneurs",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named one of the top 50 rising entrepreneurs in the Greater Boston ecosystem, 2 years in a row",
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://d390ia02pbs2qz.cloudfront.net/images/_1200x630_crop_center-center_82_none/ribc-social-poster.png?mtime=1602530839"
+        "thumbnail": "assets/img/risingstar.png"
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
-        "work_description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum ornare egestas mollis. Cras vestibulum, erat at ultrices tempus, felis libero placerat urna.",
+        "work_description": "Named one of the 25u25 in Rhode Island by RI Inno",
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "https://i.ytimg.com/vi/e1MD5xNGWV0/maxresdefault.jpg"
+        "thumbnail": "assets/img/25u25.jpeg"
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
-        "work_description": "Adam Alpert is cofounder and chief executive of Pangea.app, a Providence startup that connects companies with college students for freelance work. When was Pangea.app formed, and what inspired its creation?",
+        "work_description": "Featured on front page of Boston Globe’s business section",
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
-        "thumbnail": "https://assets.website-files.com/601b11355524e6d8f07a33a6/610275e5428d132816fa54d3_Opengraph%20Preview%20Students.jpg"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
-        "work_description": "Pangea, a marketplace startup that wants to connect college freelancers and companies in need of digital help, is seeing its growth rate accelerate as it races...",
+        "work_description": "Selected as one of 5% of our YC batch to be featured in Techcrunch ahead of Demo Day",
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
         "thumbnail": "https://techcrunch.com/wp-content/uploads/2020/04/Screen-Shot-2020-04-10-at-2.34.42-PM.png?w=1390&crop=1"
     },
     {
-        "work_name": "Pangea.app raises $400K pre-seed round to help connect student workers with businesses",
+        "work_name": "Successfully raised a $400k pre-seed round in 2020",
         "work_description": "Pangea.app, a Providence, Rhode Island-based startup has raised a $400,000 pre-seed round...",
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "https://images.prismic.io/prydocs/f16988d1-d657-4f27-baa0-09f432f2ca14_Pangea.png?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&lossless=true&max-w=1280&q=65"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
-        "work_description": "Pangea, a Providence, Rhode Island-based startup that connects youthful talent and businesses in need of freelance labor, announced this morning that it has...",
+        "work_description": "Successfully raised a $2mm Seed round in 2021",
         "date": "2021",
         "link": "https://techcrunch.com/2021/07/29/student-labor-marketplace-pangea-closes-2m-seed-round/",
         "class": "article",
         "thumbnail": "https://techcrunch.com/wp-content/uploads/2021/07/Screen-Shot-2021-07-28-at-12.53.48-PM.png?w=1390&crop=1"
     },
     {
+        "work_name" : "Pangea.app Launches To Help College Students Freelance",
+        "publisher" : "Crunchbase News",
+        "class": "article",
+        "date": "2018",
+        "thumbnail" : "https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/craigslist_competitors.png",
+        "work_description" : "Featured in Crunchbase at our initial launch in 2018",
+        "link": "https://news.crunchbase.com/news/pangea-app-launches-to-help-college-students-freelance/"
+    },
+    {
+        "work_name" : "Rhode Island's Pangea.app selected for Y Combinator",
+        "publisher" : "RHODEISLANDINNO",
+        "class": "article",
+        "date": "2021",
+        "thumbnail" : "https://media.bizj.us/view/img/11927404/pangea-house-2*900xx885-667-107-0.jpg",
+        "work_description" : "Selected to join Y Combinator’s W21 batch as top 2% of applicants",
+        "link": "https://www.bizjournals.com/rhodeisland/inno/stories/news/2021/03/09/rhode-islands-pangea-app-selected-for-y-combinator.html"
+    },
+    {
         "work_name": "The Evolution of Pangea.app with Adam Alpert - T20E World",
-        "work_description": "In this episode, ‘The Evolution of pangea.app’ with special guest Adam Alpert, you will hear from Adam who is the Founder/CEO of pangea.app...",
+        "work_description": "Featured on a podcast with T20E world",
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL1QyMEVXb3JsZC9mZWVkLnhtbA/episode/VDIwRVdvcmxkLnBvZGJlYW4uY29tL2QzYmYwNzQ3LTBmZGQtM2FkOC1hOTZjLTdiOThjODZkMjQ1NQ?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAa&ep=6",
         "class": "podcast",
@@ -97,7 +115,7 @@
     },
     {
         "work_name": "Tips for founders thinking about doing a remote accelerator - Equity",
-        "work_description": "For this week’s deep dive, the Equity team got ahold of three founders from the recent Y Combinator batch (more here, and here) to chat through their experiences...",
+        "work_description": "Featured on Techcrunch podcast  talking about remote accelerators",
         "date": "2021",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkcy5zaW1wbGVjYXN0LmNvbS9MRGQwbWFXTg/episode/ZmU1MDNhZmQtNzcxOS00NmYyLWJjNmMtMzllNjVmYTg0OGE0?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAU&ep=6",
         "class": "podcast",
@@ -105,7 +123,7 @@
     },
     {
         "work_name": "Democratizing Internships with Pangea.app - Learning Tech Talks",
-        "work_description": "In this Learning Tech Talks, I’m interning with Adam Alpert, CEO & Cofounder of Pangea.app to get a better picture of their platform and what it’s providing for...",
+        "work_description": "Featured on podcast with Learning Tech",
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy9lMDM2MGMwL3BvZGNhc3QvcnNz/episode/YjI2NTQyZjUtYzZiZC00NGIxLWIzMTMtMWNkMGNlZjAyZmMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAL&ep=6",
         "class": "podcast",
@@ -113,10 +131,10 @@
     },
     {
         "work_name": "Internships for the 21st Century with Adam Alpert of Pangea",
-        "work_description": "Adam Alpert is the CEO and co-founder at Pangea.App, the new company that's paving the way for thousands of talented college students to enter the workforce...",
+        "work_description": "Featured on podcast with our friends at Wyndly",
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
-        "thumbnail": "https://images.squarespace-cdn.com/content/v1/5ffbef2dd7c44740fac59a7e/1633536061582-PMIN4N7USRKRSDBFET40/IMG_5961.jpg?format=1000w"
+        "thumbnail": "assets/img/podcast2.jpeg"
     }
 ]

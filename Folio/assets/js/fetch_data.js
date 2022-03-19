@@ -1,29 +1,5 @@
 var articles = [
     {
-        "title" : "Pangea.app Launches To Help College Students Freelance",
-        "publisher" : "Crunchbase News",
-        "image" : "https://2utfff4d3dkt3biit53nsvep-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/craigslist_competitors.png",
-        "description" : "Over the past 20 years, tuition rates have spiked by more than 150 percent. More students are pursuing their degrees, only to graduate with a staggering amount of debt, and getting a flexible college job to offset living costs while accruing that debt isn’t always easy. One Rhode Island-based startup is aiming to help students leverage their talents and interests to freelance in their communities.",
-        "link": "https://news.crunchbase.com/news/pangea-app-launches-to-help-college-students-freelance/"
-    },
-    {
-        "title" : "Rhode Island's Pangea.app selected for Y Combinator",
-        "publisher" : "RHODEISLANDINNO",
-        "image" : "https://media.bizj.us/view/img/11927404/pangea-house-2*900xx885-667-107-0.jpg",
-        "description" : "Unbeknownst to most, the Providence-based startup Pangea.app has quietly been working its way through the same accelerator that has churned out unicorns like Stripe, Airbnb and Coinbase.",
-        "link": "https://www.bizjournals.com/rhodeisland/inno/stories/news/2021/03/09/rhode-islands-pangea-app-selected-for-y-combinator.html"
-    },
-    {
-        "title" : "Westchester Natives Hope To 'Unite The World' With New App",
-        "publisher" : "Daily Voice",
-        "image" : "https://daily-voice-res.cloudinary.com/image/upload/c_fill,dpr_1,f_auto,q_auto:eco,w_640/Pangea_y5gky5",
-        "description" : "John Tambunting of Scarsdale, Adam Alpert of Harrison, and Isaac Zussman of Pawtucket RI are the brains behind Pangeamart, an app that connects gig workers -- those in the freelance space -- with jobs. ",
-        "link": "https://dailyvoice.com/new-york/mamaroneck/neighbors/westchester-natives-hope-to-unite-the-world-with-new-app/722463/"
-    }
-];
-
-var portfolio = [
-    {
         "work_name": "Get Started RI Finalist",
         "work_description": "Selected as a top finalist in pitch competition sponsored by Cox Media",
         "date": "2020",
@@ -69,7 +45,7 @@ var portfolio = [
         "date": "2017 - 2018",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "risingstar.png"
+        "thumbnail": "assets/img/risingstar.png"
     },
     {
         "work_name": "25u25 in Rhode Island (RIInno)",
@@ -77,7 +53,7 @@ var portfolio = [
         "date": "2017",
         "link": "https://www.kairos-society.eu/",
         "class": "award",
-        "thumbnail": "25u25.jpeg"
+        "thumbnail": "assets/img/25u25.jpeg"
     },
     {
         "work_name": "R.I. startup connects college students with freelance work",
@@ -85,7 +61,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://www.bostonglobe.com/2021/01/25/metro/ri-startup-connects-college-students-with-freelance-work/",
         "class": "article",
-        "thumbnail": "Techcrunch.jpeg"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "YC-backed Pangea discusses growth, fundraising ahead of demo day",
@@ -101,7 +77,7 @@ var portfolio = [
         "date": "2021",
         "link": "https://techcrunch.com/2020/04/10/pangea-app-raises-400k-seed-round-to-help-connect-student-workers-with-businesses/",
         "class": "article",
-        "thumbnail": "Techcrunch.jpeg"
+        "thumbnail": "assets/img/Techcrunch.jpeg"
     },
     {
         "work_name": "Student labor marketplace Pangea closes $2M seed round",
@@ -159,7 +135,7 @@ var portfolio = [
         "date": "2022",
         "link": "https://podcasts.google.com/feed/aHR0cHM6Ly9hbmNob3IuZm0vcy8xMjc5ZTcxNC9wb2RjYXN0L3Jzcw/episode/ZTBiNDhmY2EtNjE2OS00MzU5LWJhYzgtNDg1N2RlZWQ3NzMz?hl=en&ved=2ahUKEwiepo2B8Jv2AhWyV98KHRneDSsQjrkEegQIAhAF&ep=6",
         "class": "podcast",
-        "thumbnail": "podcast2.jpeg"
+        "thumbnail": "assets/img/podcast2.jpeg"
     }
 ];
 

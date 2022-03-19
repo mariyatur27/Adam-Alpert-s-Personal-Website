@@ -1,27 +1,70 @@
 [
     {
-        "name" : "Lorem Ipsum",
-        "icon" : "bi bi-wallet2",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque quibusdam, maiores reprehenderit, quam distinctio eaque doloremque laudantium minus recusandae iure debitis hic. Illum alias aspernatur sapiente asperiores maxime id!"
+        "name" : "Startup Island",
+        "image": "https://crossbond.netease2000.com/storage/app/media/uploaded-files/taiwan-launches-national-brand-for-startups-eyeing-global-expansion-startup-island-taiwan2.jpeg"
     },
     {
-        "name" : "Lorem Ipsum",
-        "icon" : "bi bi-wallet2",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque quibusdam, maiores reprehenderit, quam distinctio eaque doloremque laudantium minus recusandae iure debitis hic. Illum alias aspernatur sapiente asperiores maxime id!"
+        "name" : "Harvard Club of Boston",
+        "image": "https://memberservices.membee.com/feeds/membershipclientfiles/613/images/a0c673bf-7761-4c2e-8a80-745508ae5faa.gif"
     },
     {
-        "name" : "Lorem Ipsum",
-        "icon" : "bi bi-wallet2",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque quibusdam, maiores reprehenderit, quam distinctio eaque doloremque laudantium minus recusandae iure debitis hic. Illum alias aspernatur sapiente asperiores maxime id!"
+        "name" : "Project NeXtGen onboard the Royal Carribean Allure of the Seas",
+        "image": "https://media-exp1.licdn.com/dms/image/C4D0BAQFVAnApYY0OXA/company-logo_200_200/0/1617227765966?e=2159024400&v=beta&t=MAPN_CoGvZzqOmiOAkzNTjahFZXDdLo7xYin4m2mYZo"
     },
     {
-        "name" : "Lorem Ipsum",
-        "icon" : "bi bi-wallet2",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque quibusdam, maiores reprehenderit, quam distinctio eaque doloremque laudantium minus recusandae iure debitis hic. Illum alias aspernatur sapiente asperiores maxime id!"
+        "name" : "Interconnect Confrence hosted by CEO",
+        "image": "https://quiin.s3.us-east-1.amazonaws.com/organizations/pictures/000/005/095/original/filename.jpg?1587269096"
     },
     {
-        "name" : "Lorem Ipsum",
-        "icon" : "bi bi-wallet2",
-        "description" : "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate atque quibusdam, maiores reprehenderit, quam distinctio eaque doloremque laudantium minus recusandae iure debitis hic. Illum alias aspernatur sapiente asperiores maxime id!"
+        "name" : "GSVxASU",
+        "image": "https://pbs.twimg.com/profile_images/1391900982838276104/RZyZmial_400x400.jpg"
+    },
+    {
+        "name" : "RISD",
+        "image": "https://studyarchitecture.com/wp-content/uploads/risd-logo-1.png"
+    },
+    {
+        "name" : "Brown Univeristy",
+        "image": "https://pbs.twimg.com/profile_images/1447976566433189892/bms8GwG__400x400.jpg"
+    },
+    {
+        "name" : "Bryant Univeristy",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/a/a6/Bryant_University_seal.svg/1200px-Bryant_University_seal.svg.png"
+    },
+    {
+        "name" : "Providence College",
+        "image": "https://www.logolynx.com/images/logolynx/82/8203b0d651cb52666a0a83965a99b388.jpeg"
+    },
+    {
+        "name" : "University of Rhode Island",
+        "image": "https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/University_of_Rhode_Island_seal.svg/800px-University_of_Rhode_Island_seal.svg.png"
+    },
+    {
+        "name" : "Johnson and Wales University",
+        "image": "https://www.jwu.edu/imgs/graphic/university/JWU_Brand_Centered_Logo_WEB.jpg"
+    },
+    {
+        "name" : "Roger Williams University",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/d/d2/RWU_2Color_Seal.png"
+    },
+    {
+        "name" : "Salve Regina University",
+        "image": "https://www.bestcollegesonline.org/wp-content/uploads/2020/05/salve-regina-university.png"
+    },
+    {
+        "name" : "Wheaton College",
+        "image": "https://pxl-wheatonedu.terminalfour.net/prod02/channel_1/media/marcomm/Wheaton-College-Logo.jpg"
+    },
+    {
+        "name" : "Babson University",
+        "image": "https://www.babson.edu/media/images/babson-logo.png"
+    },
+    {
+        "name" : "Northeastern University",
+        "image": "https://i.pinimg.com/originals/0a/0d/da/0a0dda7933e3d66a17a109e723cf74be.png"
+    },
+    {
+        "name" : "Univeristy of North Carolina - Chapel Hill",
+        "image": "https://i.pinimg.com/originals/15/3a/cb/153acbc4b616698ca3f4ddd028dc8aa4.jpg"
     }
 ]
